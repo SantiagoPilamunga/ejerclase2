@@ -18,7 +18,12 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            
+            if (i==j)
+            {
+                matrix[i][j]=1;
+                
+            }
+            printf("%d\t", matrix[i][j]);
         }
         printf("\n");
     }
